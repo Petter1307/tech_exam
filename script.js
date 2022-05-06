@@ -70,11 +70,6 @@ function change_icon(x) {
       </div>`
         )
       );
-      // $.each(arr,function(){
-      //     jQuery('.cards-wrapper').append(function(){
-      //         $(".name").text(this.name);
-      //     })
-      // });
     });
   });
   

@@ -4,11 +4,10 @@
     border-radius: 16px;
     width: 321px;
     height: 160px;
-    padding-top: 32px;
     padding-left: 32px;
 }
 .card-title{
-
+    padding-top: 32px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -18,7 +17,29 @@
 .card-title i{
     padding-right: 36px;
 }
+
 .card-property{
+    font-size: 16px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    margin: 0px;
+}
+.card-row{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-bottom: 12px;
+    margin: 0px
+}
+.card-value{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+#fav{
+    display: none;
+}
+#not_fav{
+    display: flex;
 }

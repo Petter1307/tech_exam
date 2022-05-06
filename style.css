@@ -1,0 +1,24 @@
+.card{
+    border: 1px #E6FF83 solid;
+    box-shadow:0px 4px 40px #E6FF83;
+    border-radius: 16px;
+    width: 321px;
+    height: 160px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.card-title{
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card-title i{
+    padding-right: 36px;
+}
+.card-property{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}

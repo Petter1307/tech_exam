@@ -3,6 +3,7 @@ function change_icon(x) {
     console.log(x.id)
     newItems[x.id].favourite = !newItems[x.id].favourite;
     localStorage.setItem("items", JSON.stringify(newItems));
+    document.location.reload(true);
   }
   
   var card = `<div class="card">

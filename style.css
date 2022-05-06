@@ -6,6 +6,7 @@
     height: 160px;
     padding-left: 32px;
     margin-left: 10px ;
+    margin-bottom: 30px;
 }
 .card-title{
     padding-top: 32px;
@@ -38,11 +39,9 @@
     font-weight: 300;
     font-size: 16px;
 }
-#fav{
-    display: none;
-}
-#not_fav{
-    display: flex;
+
+.not_fav{
+    user-select: none;
 }
 
 /* .circle{
@@ -52,3 +51,9 @@
     border-radius: 50%;
     background: linear-gradient(162.63deg, #E6FF83 -25.56%, rgba(230, 255, 131, 0) 88.09%);
 } */
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-content: center;
+
+}

@@ -20,14 +20,15 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="cards_wrapper">
+      <div class="cards-wrapper">
         <div class="card">
           <div class="card-title">
             <p>Card title</p>
-            <div class="icons" onclick="change_icon();">
-              <i class="fa-solid fa-star" id="fav"></i>
-              <i class="fa-regular fa-star" id="not_fav"></i>
-            </div>
+            <i
+              class="fa-regular fa-star"
+              class="not_fav"
+              onclick="change_icon(this);"
+            ></i>
           </div>
           <div class="card-row">
             <p class="card-property">Value:</p>

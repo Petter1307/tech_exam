@@ -5,6 +5,7 @@
     width: 321px;
     height: 160px;
     padding-left: 32px;
+    margin-left: 10px ;
 }
 .card-title{
     padding-top: 32px;
@@ -43,3 +44,11 @@
 #not_fav{
     display: flex;
 }
+
+/* .circle{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(162.63deg, #E6FF83 -25.56%, rgba(230, 255, 131, 0) 88.09%);
+} */
